@@ -1,0 +1,12 @@
+﻿CREATE TABLE UserAccount (
+	[Index] INT NOT NULL IDENTITY(1, 1),
+	UserName VARCHAR(200) NOT NULL DEFAULT '',
+	[PassWord] VARCHAR(255) NOT NULL DEFAULT '',
+	IsActive BIT,
+	CreateUser VARCHAR(200) NOT NULL DEFAULT '',
+	CreatedDate DATETIME2,
+	ModifiedUser NVARCHAR(200) NOT NULL DEFAULT '',
+	ModifiedDate DATETIME2,
+	asfa int,
+	PRIMARY KEY ([Index])
+)
